@@ -98,10 +98,10 @@ DAEMON_OPTS="-a :80 \
 #              -f ${VARNISH_VCL_CONF} \
 #              -T ${VARNISH_ADMIN_LISTEN_ADDRESS}:${VARNISH_ADMIN_LISTEN_PORT} \
 #              -t ${VARNISH_TTL} \
-#              -p http_resp_hdr_len=64000 \
 #              -p thread_pool_min=${VARNISH_MIN_THREADS} \
 #              -p thread_pool_max=${VARNISH_MAX_THREADS} \
 #              -p thread_pool_timeout=${VARNISH_THREAD_TIMEOUT} \
+#              -p http_resp_hdr_len=64000 \
 #              -S ${VARNISH_SECRET_FILE} \
 #              -s ${VARNISH_STORAGE}"
 #
